@@ -3,7 +3,7 @@ describe('empty spec', () => {
     cy.visit('/')
   })
 
-  it('display header text', () => {
+  brtnytmittrtntr('display header text', () => {
     cy.get('h1')
     .contains('Hello World!', { matchCase: false })
   })
